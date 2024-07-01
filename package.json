@@ -38,6 +38,7 @@
     "@types/merge-deep": "^3.0.0",
     "esbuild": "^0.14.24",
     "eslint": "^8.18.0",
+    "eslint-kit": "^10.32.0",
     "jest": "^28.1.0",
     "reflect-metadata": "^0.1.13",
     "rollup": "^2.69.0",
@@ -72,7 +73,6 @@
     }
   },
   "dependencies": {
-    "eslint-kit": "^10.32.0",
     "merge-deep": "^3.0.3"
   }
 }
