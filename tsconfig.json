@@ -1,36 +1,20 @@
 {
   "compilerOptions": {
-    "allowJs": false,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "experimentalDecorators": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "noEmit": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "target": "es6",
+    "module": "commonjs",
     "declaration": true,
-    "declarationDir": "./dist",
-    "baseUrl": "./",
+    "strict": true,
+    "removeComments": false,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "useUnknownInCatchVariables": false,
+    "experimentalDecorators": true,
+    "target": "ES2021",
+    "sourceMap": false,
     "outDir": "./dist",
-    "typeRoots": [
-      "./node_modules/@types"
-    ]
+    "rootDir": "./src",
+    "skipLibCheck": true
   },
-  "exclude": [
-    "./node_modules",
-    "./dist"
-  ],
-  "include": [
-    "src"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts", "tests"]
 }
