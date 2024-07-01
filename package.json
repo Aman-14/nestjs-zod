@@ -13,7 +13,8 @@
     "dev": "vite",
     "test": "jest",
     "lint": "eslint --ext .ts,.tsx src",
-    "lint:fix": "eslint --ext .ts,.tsx src --fix"
+    "lint:fix": "eslint --ext .ts,.tsx src --fix",
+    "build": "tsc"
   },
   "devDependencies": {
     "@golevelup/ts-jest": "^0.3.3",
