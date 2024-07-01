@@ -1,5 +1,5 @@
 import { createZodDto } from './dto'
-import { z } from './z'
+import { z } from 'zod'
 
 describe('createZodDto', () => {
   it('should correctly create DTO', () => {

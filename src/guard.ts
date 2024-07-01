@@ -8,7 +8,7 @@ import { ZodDto } from './dto'
 import { ZodExceptionCreator } from './exception'
 import { Source } from './shared/types'
 import { validate } from './validate'
-import { ZodSchema } from './z'
+import { ZodSchema } from 'zod'
 
 interface ZodBodyGuardOptions {
   createValidationException?: ZodExceptionCreator

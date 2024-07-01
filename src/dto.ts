@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { ZodSchema, ZodTypeDef } from './z'
+import { ZodSchema, ZodTypeDef } from 'zod'
 
 export interface ZodDto<
   TOutput = any,
